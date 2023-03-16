@@ -1,0 +1,43 @@
+1	<?xml version = :1.0"?>
+2	
+3	<!-- Fig. 15.4: letter.xml -->
+4	<!-- Business letter marked up with XML -->
+5	<!DOCTYOE letter SYSTEM "letter.dtd">
+6
+7	<letter>
+8	    <contact type = "sender">
+9	        <name>Jane Doe</name>
+10		<address1>box 12345</address1>
+11		<address2>15 Any Ave.</address2>
+12		<city>Othertown</city>
+13		<state>Otherstate</state>
+14		<zip>67890</zip>
+15		<phone>555-4321</phone>
+16		<flag gender = "F" />
+17	</contact>
+18	
+19	<contact type = "receiver">
+20	    <name>John Doe</name>
+21	    <address1>123 Main St.</address1>
+22	    <address2></address2>
+23	    <city>Anytown</city>
+24	    <state>Anystate</state>
+25	    <zip>12345</zip>
+26	    <phone>555-1234</phone>
+27	    <flag gender = "M">
+28	</contact>
+29
+30	<salutation<Dear Sir:</salutation>
+31
+32	<paragraph>It is ourprivilege to inform you about our new database
+33	    manged with XML.  This new system allows you to reduce the
+34	    load on your inventory list server by having the client machine
+35	    perform thee work of sorting and filtering the data.
+36	</paragraph>
+37
+38	<pargraph>Please visit our website for availability and pricing.
+39	</paragraph>
+40
+41	<closing>Sincerly,</closing>
+42	<signature>Ms. Jane Doe</signature>
+43    </letter>
